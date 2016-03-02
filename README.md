@@ -15,6 +15,13 @@ android:icon等属性使用它。Drawable资源都是存储在res/drawable目录
 区域内的绘制方式，如平铺填充、拉伸填充或者保持图片原始大小，也可以在BitmapDrawable区域内部使用gravity指定的对齐方式。ColorDrawable
 是最简单的Drawable，它实际上是代表了单色可绘制区域，它包装了一种固定的颜色，当ColorDrawable被绘制到画布的时候会使用颜色填充Paint,
 在画布上绘制一块单色的区域。
-	
+	<br>
+	<br>
+	<br>BitmapShader是用来做图像渲染的：BitmapShader(Bitmap bitmap, Shader.TileMode tileX, Shader.TileMode tileY)
+	<br>bitmap:用来作为填充的位图；<br>tileX:X轴方向上位图的衔接形式；<br>Y轴方向上位图的衔接形式
+	<br>
+	<br>CLAMP:如果渲染器超出原始边界范围，则会复制边缘颜色对超出范围的区域进行着色；
+	<br>REPEAT则是平铺形式重复渲染；
+	<br>MIRROR:则是在横向和纵向上以镜像的方式重复渲染位图；
 
 
