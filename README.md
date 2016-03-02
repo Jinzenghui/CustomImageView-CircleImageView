@@ -6,7 +6,7 @@
 	<br>　4:onSizeChanged()
 	<br>　5:onDraw()
 
-	<br>　Drawable的理解： 
+	<br>Drawable的理解： 
 
 	
 
